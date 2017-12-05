@@ -18,6 +18,9 @@ public class HelloController {
     public Map helloMap() {
         Map map = new HashMap();
         map.put("test", "123456");
+        if (1==1){
+            System.out.printf("1231");
+        }
         return map;
     }
 
